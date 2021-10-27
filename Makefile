@@ -53,7 +53,7 @@ help:
 	@echo '                                                                          '
 
 html:
-	python generator/build_caldav_repr.py > content/pages/calendrier.mkd
+	python3 generator/build_caldav_repr.py > content/pages/calendrier.mkd
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
 
 clean:
