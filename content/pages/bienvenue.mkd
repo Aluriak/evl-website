@@ -1,0 +1,9 @@
+Title: Bienvenue à L'Écovillage !
+Date: 2021-04-20
+Tags: meta
+Authors: Lucas Bourneuf
+Summary: 
+Slug: bienvenue
+Status: published
+
+[Voir la plaquette](https://ecovillage-la-lanterne.net/files/plaquette.pdf)

@@ -1,0 +1,9 @@
+Title: Nous contacter
+Date: 2021-04-20
+Tags: meta
+Authors: Lucas Bourneuf
+Summary: 
+Slug: contact
+Status: published
+
+Pour nous contacter, envoyez un mail à [`contact@ecovillage-la-lanterne.net`](mailto:contact@ecovillage-la-lanterne.net).

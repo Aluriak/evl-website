@@ -1,0 +1,10 @@
+Title: Évènements
+Date: 2021-04-20
+Tags: meta
+Authors: Lucas Bourneuf
+Summary: 
+Slug: évènements
+Status: published
+
+Dans l'idéal, cette page est auto-générée avec les prochains évènements trouvés dans le calendrier public de l'EVL. Comme ça, on a juste besoin de mettre à jour le calendrier.
+Voilà. C'est à faire. Cool.

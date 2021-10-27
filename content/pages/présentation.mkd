@@ -1,0 +1,9 @@
+Title: Présentation
+Date: 2021-04-20
+Tags: meta
+Authors: Lucas Bourneuf
+Summary: 
+Slug: présentation
+Status: published
+
+Ici, on va foutre des photos de l'endroit pour donner envie de venir nous rendre visite.
