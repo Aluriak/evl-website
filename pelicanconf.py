@@ -12,12 +12,12 @@ READERS = {'html': None}
 STATIC_PATHS = ['images']
 
 # don't use {lang} in article names
-ARTICLE_LANG_URL = '{slug}.html'
-ARTICLE_LANG_SAVE_AS = '{slug}.html'
+ARTICLE_LANG_URL = 'blog/{slug}.html'
+ARTICLE_LANG_SAVE_AS = 'blog/{slug}.html'
 DRAFT_LANG_URL = 'drafts/{slug}.html'
 DRAFT_LANG_SAVE_AS = 'drafts/{slug}.html'
-PAGE_LANG_URL = 'pages/{slug}.html'
-PAGE_LANG_SAVE_AS = 'pages/{slug}.html'
+PAGE_LANG_URL = '{slug}.html'
+PAGE_LANG_SAVE_AS = '{slug}.html'
 
 # Menu configuration
 # DISPLAY_PAGES_ON_MENU = False
