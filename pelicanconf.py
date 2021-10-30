@@ -21,9 +21,9 @@ DRAFT_SAVE_AS = 'drafts/{slug}.html'
 DRAFT_LANG_URL = 'drafts/{slug}.html'
 DRAFT_LANG_SAVE_AS = 'drafts/{slug}.html'
 PAGE_URL = '{slug}.html'
-PAGE_SAVE_AS = 'pages/{slug}.html'
+PAGE_SAVE_AS = '{slug}.html'
 PAGE_LANG_URL = '{slug}.html'
-PAGE_LANG_SAVE_AS = 'pages/{slug}.html'
+PAGE_LANG_SAVE_AS = '{slug}.html'
 AUTHOR_SAVE_AS = ''  # no author page
 
 # Menu configuration
