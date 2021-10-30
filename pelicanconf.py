@@ -11,13 +11,20 @@ READERS = {'html': None}
 
 STATIC_PATHS = ['images']
 
-# don't use {lang} in article names
+# Simpler urls for pages, and don't use {lang} in article names
+ARTICLE_URL = 'blog/{slug}.html'
+ARTICLE_SAVE_AS = 'blog/{slug}.html'
 ARTICLE_LANG_URL = 'blog/{slug}.html'
 ARTICLE_LANG_SAVE_AS = 'blog/{slug}.html'
+DRAFT_URL = 'drafts/{slug}.html'
+DRAFT_SAVE_AS = 'drafts/{slug}.html'
 DRAFT_LANG_URL = 'drafts/{slug}.html'
 DRAFT_LANG_SAVE_AS = 'drafts/{slug}.html'
+PAGE_URL = '{slug}.html'
+PAGE_SAVE_AS = 'pages/{slug}.html'
 PAGE_LANG_URL = '{slug}.html'
-PAGE_LANG_SAVE_AS = '{slug}.html'
+PAGE_LANG_SAVE_AS = 'pages/{slug}.html'
+AUTHOR_SAVE_AS = ''  # no author page
 
 # Menu configuration
 # DISPLAY_PAGES_ON_MENU = False
