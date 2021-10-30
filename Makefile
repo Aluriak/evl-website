@@ -54,6 +54,7 @@ help:
 
 html:
 	python3 generator/build_caldav_repr.py > content/pages/calendrier.mkd
+	python3 generator/build_wiki_page_repr.py
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
 
 clean:
