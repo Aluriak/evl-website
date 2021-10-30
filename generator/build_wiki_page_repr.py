@@ -80,7 +80,7 @@ def convert_to_markdown_by_regexes(dk_data: str):
         r'\[\[(.+)\]\]': r'[\1](\1)',
     }
     for pattern, repl in trans.items():
-        print(repr(pattern), repr(repl))
+        # print(repr(pattern), repr(repl))
         dk_data = re.sub(pattern, repl, dk_data)
     return dk_data
 
