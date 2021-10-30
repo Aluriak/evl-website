@@ -79,6 +79,7 @@ publish:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 ssh_upload: publish
+	- ssh -p $(SSH_PORT) "$(SSH_USER)@$(SSH_HOST)" "rm -r $(SSH_TARGET_DIR)/*"
 	scp -P $(SSH_PORT) -r "$(OUTPUTDIR)"/* "$(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)"
 
 rsync_upload: publish
