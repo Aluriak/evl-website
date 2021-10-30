@@ -1,0 +1,2 @@
+Elegant is a pelican theme.
+Its documentation is available here : https://github.com/Pelican-Elegant/elegant
