@@ -33,6 +33,26 @@ DEFAULT_LANG = 'fr'
 
 # Theme
 THEME = 'theme/elegant'
+LANDING_PAGE_TITLE = "Bienvenue sur le site de l'Écovillage la Lanterne"  # see https://elegant.oncrashreboot.com/write-welcome-message for doc
+FEATURED_IMAGE = 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Sch%C3%A9ma_du_d%C3%A9veloppement_durable.svg'
+PROJECTS_TITLE = 'Accès rapides'  # see https://elegant.oncrashreboot.com/projects-list for doc
+PROJECTS = [
+    {
+        'name': 'Notre plaquette',
+        'url': 'https://ecovillage-la-lanterne.net/files/plaquette.pdf',
+        'description': 'Pour une présentation formelle du projet',
+    },
+    {
+        'name': 'Notre facebook',
+        'url': 'https://ecovillage-la-lanterne.net/files/nope.webp',
+        'description': 'lalala',
+    },
+    {
+        'name': 'Notre twitter',
+        'url': 'https://ecovillage-la-lanterne.net/files/nope.webp',
+        'description': 'lululu',
+    },
+]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -42,11 +62,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (
-    ('Notre plaquette', 'https://ecovillage-la-lanterne.net/files/plaquette.pdf'),
-    ('Notre facebook', 'https://ecovillage-la-lanterne.net/files/nope.webp'),
-    ('Notre twitter', 'https://ecovillage-la-lanterne.net/files/nope.webp'),
-)
+# LINKS = (
+    # ('Notre plaquette', 'https://ecovillage-la-lanterne.net/files/plaquette.pdf'),
+    # ('Notre facebook', 'https://ecovillage-la-lanterne.net/files/nope.webp'),
+    # ('Notre twitter', 'https://ecovillage-la-lanterne.net/files/nope.webp'),
+# )
 
 # Social widget
 # SOCIAL = (('You can add links in your config file', '#'),
