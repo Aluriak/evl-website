@@ -1,4 +1,4 @@
-Title: page d'accueil du site
+Title: Bienvenue à l'Écovillage !
 Date: 2021-10-30 7:30:47 +0100
 Slug: landing-page-about-hidden
 Status: hidden
@@ -11,3 +11,5 @@ Ya rien dedans, c'est voulu, c'est pour vous donner l'occasion de vous poser ava
 - à gauche, ya des liens. Vers ailleurs. Pensez à revenir.
 
 On peut aussi avoir des articles type «blog». Rangés du plus récent au plus ancien, avec un titre, une date, des tags, une catégorie,… Bref, c'est la fête du slip.
+
+[Voir la plaquette](https://ecovillage-la-lanterne.net/files/plaquette.pdf)
