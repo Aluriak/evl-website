@@ -7,3 +7,7 @@ Slug: présentation
 Status: published
 
 Ici, on va foutre des photos de l'endroit pour donner envie de venir nous rendre visite.
+
+En attendant, on peut aussi mettre des cartes qu'on aurait fait nous même :
+
+![bord-de-lac](/files/cartes/bord-de-lac.png)
